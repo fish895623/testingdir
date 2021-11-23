@@ -1,0 +1,21 @@
+{
+  "name": "testingdir",
+  "version": "1.0.3",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "./lib/**/*.d.ts",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "testingdir": "^1.0.3",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "lib"
+  ]
+}
